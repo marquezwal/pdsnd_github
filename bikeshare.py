@@ -208,8 +208,8 @@ def main():
 
         row = 0
         while True or row <= df.size:
-            view_data = input('\nWould you like to view individual trip data? Enter yes or no.\n')
-            if view_data.lower() == 'yes':
+            view_data_flag = input('\nWould you like to view individual trip data? Enter yes or no.\n')
+            if view_data_flag.lower() == 'yes':
                 print(df.iloc[row:row+5, 1:]) # Print 5 entries of dataframe
                 row += 5
             else:
