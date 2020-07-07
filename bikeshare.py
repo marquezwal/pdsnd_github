@@ -156,6 +156,8 @@ def trip_duration_stats(df):
 
 def user_stats(df):
     """Displays statistics on bikeshare users.
+    Not all cities have gender information
+
     Args:
         df - Pandas DataFrame containing city data filtered by month and day
     """
