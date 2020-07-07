@@ -87,8 +87,8 @@ def time_stats(df):
     start_time = time.time()
 
     # display the most common month
-    popular_month = df['month'].mode()[0]
-    print('{:30} {}'.format('Most common month:', months[popular_month].title())) # Convert to string
+    common_month = df['month'].mode()[0]
+    print('{:30} {}'.format('Most common month:', months[common_month].title())) # Convert to string
 
     # display the most common day of week
     popular_weekday = df['day_of_week'].mode()[0]
@@ -113,8 +113,8 @@ def station_stats(df):
     start_time = time.time()
 
     # display most commonly used start station
-    popular_start_station = df['Start Station'].mode()[0]
-    print('{:30} {}'.format('Most common start station:',popular_start_station))
+    common_start_station = df['Start Station'].mode()[0]
+    print('{:30} {}'.format('Most common start station:',common_start_station))
 
     # display most commonly used end station
     popular_end_station = df['End Station'].mode()[0]
@@ -210,8 +210,8 @@ def main():
 
         row = 0
         while True or row <= df.size:
-            view_data = input('\nWould you like to view individual trip data? Enter yes or no.\n')
-            if view_data.lower() == 'yes':
+            view_data_flag = input('\nWould you like to view individual trip data? Enter yes or no.\n')
+            if view_data_flag.lower() == 'yes':
                 print(df.iloc[row:row+5, 1:]) # Print 5 entries of dataframe
                 row += 5
             else:
