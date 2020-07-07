@@ -1,15 +1,28 @@
 ### Date created
-Include the date you created this project and README file.
+Creation at 2020-07-06
 
-### Project Title
-Replace the Project Title
+### Project __Explore US Bikeshare Data__
+
 
 ### Description
-Describe what your project is about and what it does
+Interactive data exploration of bike share systems for three major cities in the United States - Chicago, New York City and Washington.
+
+The program:
+  * interacts with the user
+  * imports raw data from the selected city
+  * computers descriptive statistics
+  * displays the information in the terminal
 
 ### Files used
-Include the files used
+#### Main file:
+  * bikeshare.py
+
+#### Raw data files:
+  * chicago.csv
+  * new_york_city.csv
+  * washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+  * https://pandas.pydata.org
+  * https://stackoverflow.com/
+  * https://pyformat.info/
