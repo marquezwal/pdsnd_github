@@ -26,3 +26,5 @@ The program:
   * https://pandas.pydata.org
   * https://stackoverflow.com/
   * https://pyformat.info/
+  * https://stackoverflow.com/questions/10565217/do-you-push-every-single-commit
+  * https://udacity.github.io/git-styleguide/
